@@ -12,7 +12,7 @@
     --color-light: #ffffff;
 
     /* Typography */
-    --font-text: "Roboto Mono", monospace;
+    --font-text: "Spline Sans Mono", monospace;
     --font-display: "Oswald", sans-serif;
     --font-secondary: "Pinyon Script", cursive;
 
@@ -72,10 +72,12 @@ h3 {
 
 p {
     font-family: var(--font-text);
+    font-optical-sizing: auto;
+    font-style: normal;
     font-size: 1.4em;
     color: var(--color-light);
-    letter-spacing: -1px;
-    font-weight: 450;
+    font-weight: 350;
+    letter-spacing: -0.6px;
 }
 
 .container {
@@ -1332,7 +1334,7 @@ footer {
     .prnt1,
     .prnt2,
     .prnt3 {
-        font-size: 1.6em;
+        font-size: 1.2em;
     }
 
     .bubble2 {
@@ -1522,7 +1524,13 @@ footer {
 
     .prnt3 {
         position: relative;
-        top: -10px;
+        top: 0px;
+    }
+
+    .prnt1,
+    .prnt2 {
+        position: relative;
+        top: 3px;
     }
 
     .prnt1,
