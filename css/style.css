@@ -840,6 +840,16 @@ footer {
     flex-direction: column;
 }
 
+.thanks {
+    grid-column: 1/13;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    padding: 20px 30px;
+    background-color: var(--color-fourth);
+    text-align: center;
+    align-items: center;
+}
+
 /* -------------------------------------------------------------------------------- */
 /* ! ABOUT ME PAGE */
 /* -------------------------------------------------------------------------------- */
@@ -1196,6 +1206,57 @@ footer {
 .slide3 {
     background-color: var(--color-tertiary);
     padding: 30px 50px;
+}
+
+.collegamenti {
+    background: #2B4D8C;
+    background: linear-gradient(180deg, rgba(43, 77, 140, 1) 0%, rgba(14, 149, 79, 1) 66%);
+    padding: 30px 50px 70px 50px;
+}
+
+.collegamenti-elements a {
+    font-size: 2em;
+    color: white;
+    font-weight: 550;
+    font-family: var(--font-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collegamenti-elements a:nth-of-type(1) {
+    grid-column: 1/4;
+    text-align: right;
+}
+
+.collegamenti-elements a:nth-of-type(2) {
+    grid-column: 6/8;
+}
+
+.collegamenti-elements a:nth-of-type(3) {
+    grid-column: 10/13;
+    justify-content: space-between;
+}
+
+.collegamenti-elements a:hover {
+    color: var(--color-tertiary);
+}
+
+.collegamenti-elements a img {
+    width: 90%;
+}
+
+.collegamenti-elements img:hover {
+    rotate: -10deg;
+}
+
+.arrow {
+    transform: rotate(180deg);
+    padding-left: 20px;
+}
+
+.arrow2 {
+    padding-left: 20px;
 }
 
 /* -------------------------------------------------------------------------------- */
@@ -2507,6 +2568,10 @@ footer {
     .link-bubble4 {
         grid-column: 2/6;
     }
+
+    .thanks {
+        font-size: 12px !important;
+    }
 }
 
 @media (max-width:550px) {
@@ -3162,5 +3227,9 @@ footer {
 
     .welcometitle img {
         width: 100% !important;
+    }
+
+    .thanks {
+        font-size: 10px !important;
     }
 }
