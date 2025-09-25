@@ -1853,7 +1853,7 @@ footer {
     }
 
     .link-bubble2 {
-        grid-column: 1/7;
+        grid-column: 5/9;
         grid-row: 5;
     }
 
