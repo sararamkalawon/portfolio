@@ -1176,7 +1176,6 @@ footer {
 .lineanove-elements p {
     text-align: center;
     grid-column: 5/9;
-    padding-bottom: 100px;
 }
 
 .lineanove-elements img {
@@ -1186,12 +1185,36 @@ footer {
     align-self: center;
 }
 
-.slide1 {
+.intro-lineanove {
+    grid-column: 2/12;
     background-color: var(--color-tertiary);
+}
+
+
+
+.intro-testolineanove {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-light);
     padding: 30px 50px;
 }
 
-.slide1 img,
+
+.intro-testolineanove h2,
+.intro-testolineanove p {
+    color: var(--color-dark);
+}
+
+.slide1 {
+    background-color: var(--color-fourth);
+    padding: 40px 50px;
+}
+
+.slide1 img {
+    width: 70%;
+    grid-column: 2/12;
+}
+
 .slide2 img,
 .slide3 img {
     grid-column: 2/12;
@@ -1199,12 +1222,12 @@ footer {
 }
 
 .slide2 {
-    background-color: var(--color-fourth);
+    background-color: var(--color-tertiary);
     padding: 30px 50px;
 }
 
 .slide3 {
-    background-color: var(--color-tertiary);
+    background-color: var(--color-fourth);
     padding: 30px 50px;
 }
 
