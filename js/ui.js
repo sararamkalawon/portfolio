@@ -1,5 +1,5 @@
 const header = document.getElementById('mainHeader');
-const scrollThreshold = 200;
+const scrollThreshold = 150;
 
 window.addEventListener('scroll', () => {
     if (window.scrollY > scrollThreshold) {
