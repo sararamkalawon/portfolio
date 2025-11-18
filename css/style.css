@@ -35,8 +35,20 @@
     padding: 0;
 }
 
+body{
+    cursor: url ('../img/cursor/i-cursor-solid-full.svg'), text;
+}
+
 a {
     text-decoration: none;
+}
+
+a:hover{
+    cursor: url('../img/cursor/hand-pointer-regular-full.svg'), auto;
+}
+
+p:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover{
+    cursor: url('../img/cursor/i-cursor-solid-full.svg') 2 10, auto;
 }
 
 li {
